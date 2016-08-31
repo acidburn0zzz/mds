@@ -27,15 +27,23 @@ public class CommandMDS extends CommandBase {
 		
 		if (args[0].equals("start") || args[0].equals("stop")) {
 			if(args[1].equals("rec")) {
-				
+				if (args[0].equals("start")) {
+					
+				} else if (args[0].equals("stop")) {
+					
+				}
 			} else if (args[1].equals("play")) {
-				
+				if (args[0].equals("start")) {
+					
+				} else if (args[0].equals("stop")) {
+					
+				}
 			} else if (args[2].equals("render")) {
-				
-			}
-		} else if (args[0].equals("set")){
-			for (int i = 0; i < MinecraftDemoSystem.demoSystem.keys; i++) {
-				
+				if (args[0].equals("start")) {
+					
+				} else if (args[0].equals("stop")) {
+					
+				}
 			}
 		}
 	}
